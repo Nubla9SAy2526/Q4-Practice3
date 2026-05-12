@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Practice 3</title>
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container" id="check" p-5>
+        <h1>Library Section Checker</h1>
+        <hr>
+    
+    <form>
+        <label for="Enter a section:">Enter library section:</label><br>
+        <input id="displayInput" type="text" placeholder="Enter F, N, R"><br>
+        <br>
+
+        <p id="result"></p>
+
+        <button class="btn btn-warning" type="button" onclick="verifysection()">Check</button>
+        <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+    </form>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
